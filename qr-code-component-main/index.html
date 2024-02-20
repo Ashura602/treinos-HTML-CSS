@@ -2,27 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    body{
+      background-color:hsl(212, 45%, 89%);
+    }
+    main{
+      width: 325px;
+      height: 480px;
+      background-color: hsl(0, 0%, 100%);
+      text-align: center;
+      font-family: "Outfit",sans-serif;
+      font-weight: 400,700;
+      margin: auto;
+      margin-top: 15vh;
+      border-radius: 5%;
+      border: none;
+      word-break: keep-all;
+    }
+    .QR-code{
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+    }
+    .QR-code img{
+      border-radius: 5%;
+      width:300px; 
+      height: 300px;
+    }
+    .text{
+      width: 250px;
+      margin: 20px auto 10px;
+    }
+    .text p{
+      color: hsl(220, 15%, 55%);
+      font-size: 15px;
+    }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  <main>
+    <div class="QR-code">
+      <img src="./images/image-qr-code.png" alt="QR-code" >
+    </div>
+    <div class="text">      
+      <h3>Improve your front-end skills by building projects</h3>
+      <br>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Ashura602">Gabriel Braga</a>.
   </div>
 </body>
 </html>
