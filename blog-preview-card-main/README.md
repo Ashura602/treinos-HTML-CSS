@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://blog-preview-card-pi-beige.vercel.app)
+- Live Site URL: [https://blog-preview-card-pi-beige.vercel.app](https://blog-preview-card-pi-beige.vercel.app)
 
 ## My process
 
